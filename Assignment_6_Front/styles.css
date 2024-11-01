@@ -1,0 +1,100 @@
+img {
+    width: 300px;
+    height: 250px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FC6736;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#logo{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 30px;
+    color: #FC6736;
+}
+
+#bttn {
+    border-color:  #FC6736;
+    color: #FC6736;
+    
+}
+
+#bttn:hover{
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#addTaskButton, #submitButton, #resetButton, #submitFormButton, #nextButton1, #nextButton2, #playSoundButton {
+    border-color:  #FC6736;
+    color: #FC6736;
+    background-color: white;
+}
+
+#playSoundButton:hover{
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#submitFormButton:hover {
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#nextButton1:hover {
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#nextButton2:hover {
+    background-color:  #FC6736;;
+    color: white;
+}
+#resetButton:hover {
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#addTaskButton:hover{
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#submitButton:hover{
+    background-color:  #FC6736;;
+    color: white;
+}
+
+#changeColorButton:hover {
+    text-decoration: underline;
+    text-decoration-color: #FC6736;
+}
+
+
+html, body {
+    height: 100%; /* Make sure the body takes the full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    display: flex; /* Use flexbox for the body */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+main {
+    flex: 1; /* Allow the main section to grow and take available space */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.05); /* Optional background color for the footer */
+}
+
+
+
+
+ 
